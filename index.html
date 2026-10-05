@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kuis Jual Beli dalam Islam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e9f2fc;--surf:#fff;--card:#f5f9ff;--ink:#10263f;--mute:#566b82;--g:#1a5ca8;--navy:#0d2f5a;--line:#c5daf0;--acc:#5b9bd5;--gold:#d4a93c;--ok:#0f7a4f;--no:#c0392b;--field:#fbfdff;--sh:0 6px 20px rgba(13,47,90,.10);box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1a30;--surf:#10294a;--card:#0f2440;--ink:#e4eefb;--mute:#9db5d0;--g:#6fb1f0;--line:#24477a;--acc:#6fb1f0;--field:#0a1a30;--sh:0 6px 20px rgba(0,0,0,.35);--ok:#4fd49a;--no:#ff8f7a}}
+:root[data-theme="dark"]{--bg:#0a1a30;--surf:#10294a;--card:#0f2440;--ink:#e4eefb;--mute:#9db5d0;--g:#6fb1f0;--line:#24477a;--acc:#6fb1f0;--field:#0a1a30;--sh:0 6px 20px rgba(0,0,0,.35);--ok:#4fd49a;--no:#ff8f7a}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 60px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30'%3E%3Cg fill='none' stroke='%231a5ca8' stroke-opacity='.07' stroke-width='1.5'%3E%3Ccircle cx='0' cy='30' r='28'/%3E%3Ccircle cx='0' cy='30' r='20'/%3E%3Ccircle cx='0' cy='30' r='12'/%3E%3Ccircle cx='60' cy='30' r='28'/%3E%3Ccircle cx='60' cy='30' r='20'/%3E%3Ccircle cx='60' cy='30' r='12'/%3E%3Ccircle cx='30' cy='15' r='28'/%3E%3Ccircle cx='30' cy='15' r='20'/%3E%3Ccircle cx='30' cy='15' r='12'/%3E%3C/g%3E%3C/svg%3E");color:var(--ink);font:16px/1.6 Nunito,"Segoe UI",Roboto,Arial,sans-serif}
+h1,h2,h3{font-family:"Shippori Mincho",Georgia,"Times New Roman",serif;margin:0}
+.hero{position:relative;overflow:hidden;background:#0d2f5a url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.16' stroke-width='1.5'%3E%3Ccircle cx='0' cy='30' r='28'/%3E%3Ccircle cx='0' cy='30' r='20'/%3E%3Ccircle cx='0' cy='30' r='12'/%3E%3Ccircle cx='60' cy='30' r='28'/%3E%3Ccircle cx='60' cy='30' r='20'/%3E%3Ccircle cx='60' cy='30' r='12'/%3E%3Ccircle cx='30' cy='15' r='28'/%3E%3Ccircle cx='30' cy='15' r='20'/%3E%3Ccircle cx='30' cy='15' r='12'/%3E%3C/g%3E%3C/svg%3E");color:#f3f8ff;padding:calc(env(safe-area-inset-top,0px) + 30px) 20px 78px;text-align:center;border-bottom:4px solid var(--gold)}
+.hero .in{position:relative;z-index:2;max-width:720px;margin:0 auto}
+.scene{position:absolute;right:14px;bottom:22px;width:min(62%,380px);opacity:.5;z-index:1}
+.hero .ar{font-size:30px;line-height:1.5;color:#f0cf6d;font-family:"Amiri","Traditional Arabic",serif}
+.hero .tr{font-style:italic;color:#c5d9f1;font-size:14px}
+.hero h1{font-size:clamp(28px,7vw,40px);line-height:1.2;margin:14px 0 8px;font-weight:700}
+.hero p{margin:0 auto;max-width:520px;color:#c5d9f1;font-size:15px}
+.star{position:absolute;width:120px;height:120px;background:var(--gold);opacity:.16;clip-path:polygon(50% 0,61% 20%,85% 15%,80% 39%,100% 50%,80% 61%,85% 85%,61% 80%,50% 100%,39% 80%,15% 85%,20% 61%,0 50%,20% 39%,15% 15%,39% 20%)}
+.pt{position:absolute;top:-30px;z-index:1;opacity:.85;animation:fall 11s linear infinite}
+@keyframes fall{to{transform:translate(40px,420px) rotate(240deg)}}
+@media (prefers-reduced-motion:reduce){.pt{animation:none;top:20px}}
+.wave{position:absolute;left:0;bottom:-1px;width:100%;height:46px;z-index:2}.wave path{fill:var(--bg)}
+main{max-width:760px;margin:0 auto;padding:6px 16px 40px}
+.steps{display:flex;list-style:none;margin:14px 0 20px;padding:0}
+.steps li{flex:1;text-align:center;position:relative;font-size:13px;font-weight:700;color:var(--mute)}
+.steps li+li::before{content:"";position:absolute;top:15px;right:50%;width:100%;height:3px;background:var(--line);z-index:0}
+.steps li.dn::before,.steps li.on::before{background:var(--g)}
+.steps i{position:relative;z-index:1;display:grid;place-items:center;width:32px;height:32px;margin:0 auto 4px;border-radius:50%;background:var(--surf);border:2px solid var(--line);font-style:normal}
+.steps .on i{background:var(--g);border-color:var(--g);color:#fff;box-shadow:0 0 0 5px color-mix(in srgb,var(--g) 20%,transparent)}
+.steps .dn i{background:var(--g);border-color:var(--g);color:#fff}.steps .on,.steps .dn{color:var(--g)}
+.panel,.q,.res{background:var(--surf);border:1px solid var(--line);border-radius:22px;box-shadow:var(--sh)}
+.panel{padding:22px 20px}
+h2{font-size:24px;margin:0 0 4px;color:var(--navy)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) h2{color:#e4eefb}}
+.sub{color:var(--mute);margin:0 0 14px}
+.field{margin-top:14px}label.l{display:block;font-weight:700;font-size:14px;margin-bottom:5px}
+input[type=text]{width:100%;padding:13px 14px;border:2px solid var(--line);border-radius:14px;background:var(--field);color:var(--ink);font:inherit}
+input[type=text]:focus{border-color:var(--g)}
+button:focus-visible,input:focus-visible,textarea:focus-visible,.opt:focus-within{outline:3px solid var(--gold);outline-offset:2px}
+.err{color:var(--no);font-size:14px;margin:8px 0 0;min-height:1.2em}
+.act{display:grid;gap:10px;margin-top:20px}
+.btn{padding:15px;border-radius:16px;font:800 16px Nunito,"Segoe UI",sans-serif;cursor:pointer;border:2px solid transparent;background:linear-gradient(135deg,#1a5ca8,#0d2f5a);color:#fff;box-shadow:0 6px 14px rgba(13,47,90,.28)}
+.btn.sec{background:var(--surf);color:var(--g);border-color:var(--line);box-shadow:none}
+.lvc{display:grid;gap:12px;margin-top:14px}
+.lvc button{display:flex;gap:14px;align-items:center;text-align:left;padding:16px;border-radius:20px;border:2px solid var(--line);background:var(--surf);color:var(--ink);font-family:inherit;cursor:pointer;box-shadow:var(--sh)}
+.lvc button:hover{border-color:var(--g)}
+.lvc .ic{flex:none;display:grid;place-items:center;width:54px;height:54px;border-radius:16px;background:color-mix(in srgb,var(--g) 14%,var(--surf));font-size:28px}
+.lvc b{display:block;font:700 21px "Shippori Mincho",Georgia,serif;color:var(--g)}.lvc span{font-size:14.5px;color:var(--mute)}
+.pbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surf);border:1px solid var(--line);border-radius:16px;padding:10px 14px;margin:0 0 14px;box-shadow:var(--sh)}
+.pbar div.tx{display:flex;justify-content:space-between;font-size:13.5px;font-weight:700;color:var(--g)}
+.pbar .tr{height:8px;border-radius:8px;background:var(--line);margin-top:6px;overflow:hidden}.pbar .tr i{display:block;height:100%;width:0;background:linear-gradient(90deg,#5b9bd5,#1a5ca8);transition:width .25s}
+.sh{display:flex;align-items:center;gap:10px;margin:22px 0 12px}.sh h2{font-size:21px;margin:0}
+.sh span{font-size:12.5px;font-weight:800;padding:3px 10px;border-radius:99px;background:color-mix(in srgb,var(--g) 14%,var(--surf));color:var(--g)}
+.q{padding:16px;margin-bottom:14px}
+.q header{display:flex;gap:12px;align-items:flex-start}
+.q h3{font:700 17px/1.45 "Shippori Mincho",Georgia,serif;margin:3px 0 4px}
+.no{flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:12px;background:var(--g);color:#fff;font:800 15px Nunito,sans-serif}
+.no.ok{background:var(--ok)}.no.bad{background:var(--no)}
+.opt{display:flex;gap:12px;align-items:center;padding:11px 12px;margin-top:9px;border:2px solid var(--line);border-radius:14px;background:var(--field);cursor:pointer}
+.opt:hover{border-color:var(--acc)}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt i{flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;border:2px solid var(--line);font:800 13px Nunito,sans-serif;font-style:normal;color:var(--g)}
+.opt:has(input:checked){border-color:var(--g);background:color-mix(in srgb,var(--g) 11%,var(--field))}
+.opt:has(input:checked) i{background:var(--g);border-color:var(--g);color:#fff}
+textarea{width:100%;min-height:96px;margin-top:10px;padding:12px;border:2px solid var(--line);border-radius:14px;background:var(--field);color:var(--ink);font:inherit;resize:vertical}
+textarea:focus{border-color:var(--g)}
+.hint{font-style:italic;color:var(--mute);font-size:13.5px;margin:7px 0 0}
+.res{padding:22px 18px;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;background:linear-gradient(135deg,color-mix(in srgb,var(--gold) 14%,var(--surf)),var(--surf));border:2px solid var(--gold)}
+.ring{--p:0;width:118px;height:118px;border-radius:50%;background:conic-gradient(var(--g) calc(var(--p)*1%),var(--line) 0);display:grid;place-items:center}
+.ring div{width:90px;height:90px;border-radius:50%;background:var(--surf);display:grid;place-items:center;text-align:center;font:700 32px/1 "Shippori Mincho",Georgia,serif;color:var(--g)}
+.ring small{display:block;font:700 11px Nunito,sans-serif;color:var(--mute);margin-top:3px}
+.res h2{font-size:22px}.res .nm{font-weight:800;color:var(--g);font-size:15.5px}.res .sc{font-weight:800;font-size:17px}
+.res p{margin:6px 0 0;font-size:14.5px}
+@media (max-width:420px){.res{grid-template-columns:1fr;justify-items:center;text-align:center}}
+.fb{margin-top:12px;padding:11px 13px;border-radius:12px;font-size:14.5px;border-left:5px solid var(--ok);background:color-mix(in srgb,var(--ok) 10%,var(--field))}
+.fb.bad{border-left-color:var(--no);background:color-mix(in srgb,var(--no) 9%,var(--field))}
+.fb b{display:block;margin-bottom:2px}
+[hidden]{display:none!important}
+.foot{position:relative;text-align:center;color:var(--mute);margin:28px 0 0;font-size:14.5px}
+</style></head><body>
+<header class="hero">
+<svg class="scene" viewBox="0 0 400 160" aria-hidden="true"><path d="M60 160L170 40 200 60 225 38 340 160Z" fill="#2c5f9e" opacity=".6"/><path d="M148 66L170 40 200 60 225 38 246 62 224 56 200 74 172 58Z" fill="#fff" opacity=".85"/><g fill="#e0584a"><rect x="300" y="86" width="7" height="74"/><rect x="352" y="86" width="7" height="74"/><rect x="292" y="79" width="75" height="9" rx="2"/><rect x="298" y="96" width="63" height="5"/></g></svg>
+<div class="star" style="right:-30px;top:-30px"></div><div class="star" style="left:-40px;bottom:10px;width:90px;height:90px"></div>
+<span class="pt" style="left:8%;font-size:16px;animation-delay:0s">🌸</span><span class="pt" style="left:30%;font-size:12px;animation-delay:-4s">🌸</span><span class="pt" style="left:55%;font-size:18px;animation-delay:-7s">🌸</span><span class="pt" style="left:80%;font-size:13px;animation-delay:-2s">🌸</span>
+<div class="in"><div class="ar" dir="rtl">وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا</div>
+<div class="tr">“Allah menghalalkan jual beli dan mengharamkan riba.” (QS. Al-Baqarah: 275)</div>
+<h1>Kuis Jual Beli dalam Islam</h1>
+<p>25 pilihan ganda + 5 uraian. Materi: jual beli, riba, paylater &amp; pinjol, serta amanah teknisi TKJ.</p></div>
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30C150 0 300 60 450 30S750 0 900 30 1100 55 1200 25V60H0Z"/></svg></header>
+<main>
+<ol class="steps" id="steps"></ol>
+<section id="v1" class="panel"><h2>Data Peserta</h2><p class="sub">Isi dulu identitasmu sebelum mulai.</p>
+<div class="field"><label class="l" for="nama">Nama</label><input id="nama" type="text" placeholder="Contoh: Rudi" autocomplete="name"></div>
+<div class="field"><label class="l" for="kelas">Kelas / Jurusan</label><input id="kelas" type="text" value="XII – TEKNIK KOMPUTER DAN JARINGAN"></div>
+<p class="err" id="err" role="alert"></p>
+<div class="act"><button class="btn" id="b1">Lanjut ke Pilihan Tingkat</button></div></section>
+<section id="v2" hidden><h2>Pilih Tingkat Kesulitan</h2><p class="sub">Halo, <b id="hl"></b>. Pilih tingkat soal yang ingin dikerjakan.</p>
+<div class="lvc" id="lvc"></div><div class="act"><button class="btn sec" id="back2">Kembali</button></div></section>
+<section id="v3" hidden><div class="pbar"><div class="tx"><span id="t3"></span><span>Terjawab <b id="pc">0</b>/30</span></div><div class="tr"><i id="pb"></i></div></div>
+<div class="sh"><h2>A. Pilihan Ganda</h2><span>25 soal</span></div><div id="pg"></div>
+<div class="sh"><h2>B. Uraian Singkat</h2><span>5 soal</span></div><div id="es"></div>
+<div class="act"><button class="btn" id="cek">✓ Periksa Jawaban</button><button class="btn sec" id="back3">Ganti Tingkat</button></div></section>
+<section id="v4" hidden><div class="res" id="hasil" aria-live="polite"><div class="ring" id="ring"><div><span><span id="rn">0</span><small>NILAI</small></span></div></div><div><h2>Hasil Kuis</h2><div class="nm" id="hn"></div><div class="sc" id="hs"></div><p id="hm"></p><p id="hk" style="font-weight:800;color:var(--g)"></p></div></div>
+<div class="sh"><h2>Pembahasan Jawaban</h2></div><div id="rv"></div>
+<div class="act"><button class="btn" id="again">↻ Ulangi Kuis Ini</button><button class="btn sec" id="other">Pilih Tingkat Lain</button><button class="btn sec" id="start">Mulai dari Awal</button></div></section>
+<p class="foot">🌊 Jadilah pedagang dan teknisi yang jujur, amanah, dan jauh dari riba. 🌸</p>
+</main>
+<script>
+// PG: [soal,[opsi],benar,penjelasan]  Esai: [soal,jawaban model,[[kata kunci alternatif]...],minimal grup]
+const D={
+Mudah:{pg:[
+["Dalil yang menghalalkan jual beli dan mengharamkan riba terdapat dalam…",["QS. Al-Baqarah: 275","QS. Al-Ikhlas: 1","QS. An-Nas: 1","QS. Al-Fatihah: 2"],0,"QS. Al-Baqarah: 275 menegaskan Allah menghalalkan jual beli dan mengharamkan riba."],
+["Jual beli dalam Islam adalah akad antara dua pihak untuk…",["Memaksa orang membeli","Menukar barang/jasa dengan manfaat yang disepakati","Menambah harga sepihak","Meminjam tanpa batas waktu"],1,"Jual beli berarti pertukaran barang/jasa atas dasar kesepakatan."],
+["Tambahan sepihak tanpa usaha atau risiko yang jelas disebut…",["Zakat","Infak","Riba","Hibah"],2,"Itulah pengertian riba."],
+["Akad sewa-menyewa barang atau jasa disebut…",["Ijarah","Riba fadhl","Qardh berbunga","Gharar"],0,"Ijarah adalah sewa-menyewa dengan harga yang disepakati."],
+["Hukum bunga pinjaman online adalah…",["Halal","Mubah","Haram karena termasuk riba","Sunnah"],2,"Bunga dan biaya tambahan atas utang termasuk riba nasi'ah."]],
+es:[
+["Sebutkan dua hikmah jual beli.","Memenuhi kebutuhan hidup dan menghidupkan roda ekonomi (juga meningkatkan kesejahteraan, keadilan, persaudaraan).",[["kebutuhan"],["ekonomi","kesejahteraan","keadilan","persaudaraan"]],2],
+["Apa yang dimaksud dengan riba?","Tambahan sepihak tanpa usaha atau risiko yang jelas, sehingga merugikan pihak lain.",[["tambahan"],["sepihak","tanpa usaha","risiko","zalim","merugikan"]],2],
+["Mengapa paylater/pinjol berbunga termasuk riba?","Karena ada tambahan (bunga/biaya) atas utang akibat tempo waktu, tanpa usaha atau risiko nyata dari pemberi pinjaman.",[["bunga","tambahan","biaya"],["waktu","tempo","nasiah","utang","pinjam"]],2],
+["Sebutkan dua contoh akad yang diperbolehkan dalam jual beli syariah.","Misalnya murabahah, mudharabah, musyarakah, atau ijarah.",[["ijarah"],["musyarakah"],["murabahah"],["mudharabah"]],2],
+["Berikan contoh sikap jujur teknisi TKJ saat menentukan biaya jasa.","Tidak melebihkan biaya dan mencatat biaya serta komponen secara jujur dan transparan.",[["melebihkan","markup","mark up","jujur"],["catat","rincian","transparan","komponen"]],1]]},
+Normal:{pg:[
+["Riba fadhl adalah…",["Tambahan karena tempo waktu","Kelebihan dalam tukar-menukar barang sejenis","Bagi hasil usaha","Sewa perangkat"],1,"Riba fadhl: kelebihan pada pertukaran barang sejenis."],
+["Hadis riwayat Muslim melaknat…",["Hanya pemakan riba","Hanya penulisnya","Pemakan, pemberi, penulis, dan saksi riba","Hanya pemberi riba"],2,"Semua pihak yang terlibat dalam riba terkena laknat."],
+["Pinjaman Rp10.000.000 dengan bunga 1% per hari. Bunga sederhana selama 30 hari adalah…",["Rp300.000","Rp1.000.000","Rp3.000.000","Rp30.000.000"],2,"1% × 30 hari = 30%; 30% × Rp10 juta = Rp3.000.000."],
+["Musyarakah adalah…",["Sewa-menyewa","Kongsi modal dengan pembagian untung-rugi","Jual beli bunga","Pinjaman berbunga"],1,"Musyarakah: kerja sama modal, untung dan rugi dibagi bersama."],
+["Tiga prinsip transaksi yang baik menurut materi adalah…",["Murah, cepat, untung","Halal, jelas, adil","Besar, banyak, laris","Diskon, bonus, hadiah"],1,"Transaksi harus halal, jelas, dan adil."]],
+es:[
+["Bedakan jual beli dengan riba.","Jual beli menukar barang/jasa dengan usaha dan risiko yang jelas; riba adalah tambahan sepihak karena waktu tanpa usaha/risiko.",[["barang","jasa","usaha","risiko"],["tambahan","waktu","tanpa","sepihak"]],2],
+["Jelaskan riba nasi'ah dan contohnya pada pinjol.","Riba nasi'ah adalah tambahan karena tempo waktu pada utang-piutang; contohnya bunga harian dan denda keterlambatan pinjol.",[["tempo","waktu"],["utang","pinjam","pinjol"],["bunga","denda"]],2],
+["Mengapa teknisi TKJ harus amanah terhadap data pelanggan?","Karena menjaga data adalah kewajiban sebagai amanah, menjaga privasi, dan kepercayaan pelanggan.",[["amanah"],["privasi","rahasia"],["percaya","kepercayaan"]],2],
+["Apa solusi syariah bagi pengusaha jaringan yang butuh perangkat/modal?","Menyewa perangkat dengan ijarah, kongsi modal dengan musyarakah, atau pembiayaan koperasi syariah/BMT.",[["ijarah","sewa"],["musyarakah","kongsi","patungan","modal"],["koperasi","bmt","syariah"]],2],
+["Jelaskan sikap jujur saat menentukan biaya jasa perbaikan jaringan.","Tidak melebihkan biaya, menyebut rincian biaya dan komponen secara transparan, dan mencatatnya dengan jujur.",[["melebihkan","markup","jujur"],["catat","rincian","transparan"],["komponen","biaya"]],2]]},
+Susah:{pg:[
+["Pinjol menyebut bunga sebagai “biaya administrasi” yang bertambah tiap hari. Hukumnya…",["Halal karena namanya berubah","Tetap riba nasi'ah karena tambahan terkait waktu","Boleh jika aplikasinya resmi","Mubah jika nilainya kecil"],1,"Yang dinilai adalah hakikat akad, bukan namanya."],
+["Perbedaan utama murabahah dan mudharabah adalah…",["Keduanya sama","Murabahah jual beli margin disepakati; mudharabah bagi hasil modal-usaha","Murabahah sewa; mudharabah hibah","Murabahah berbunga; mudharabah tidak"],1,"Murabahah berupa jual beli dengan margin; mudharabah berupa bagi hasil."],
+["Riba disebut kezaliman karena…",["Harganya mahal","Menguntungkan satu pihak tanpa risiko dan merugikan pihak lain","Dilakukan secara online","Tidak ada saksi"],1,"Riba menimbulkan ketidakadilan antara pemberi dan peminjam."],
+["Menukar 1 kg beras kualitas sama dengan 1,2 kg beras termasuk…",["Murabahah","Riba fadhl","Riba nasi'ah","Ijarah"],1,"Kelebihan pada pertukaran barang sejenis adalah riba fadhl."],
+["Ijarah sewa router sah jika…",["Harga berubah-ubah tanpa kabar","Harga tetap disepakati sejak awal dan manfaat jelas","Ada bunga harian","Akad tidak dijelaskan"],1,"Ijarah menuntut manfaat jelas dan harga yang disepakati."]],
+es:[
+["Analisis kasus: pengusaha ISP meminjam Rp10 juta, bunga 1% per hari. Mengapa merugikan dan bagaimana hukumnya?","Bunga harian menambah beban, ditambah denda; ini riba nasi'ah yang haram, merugikan dan zalim bagi peminjam.",[["bunga","tambahan"],["riba","nasiah"],["merugikan","zalim","beban","denda"]],3],
+["Rancang solusi syariah untuk pengadaan Mikrotik dan perangkat jaringan, sebutkan akad dan alasannya.","Gunakan ijarah atau musyarakah/mudharabah/murabahah dengan harga atau nisbah yang jelas dan disepakati, tanpa bunga.",[["ijarah","musyarakah","mudharabah","murabahah"],["transparan","jelas","disepakati"],["untung","rugi","nisbah","bagi hasil","tetap","margin"]],2],
+["Hubungkan sikap amanah dan jujur teknisi TKJ dengan keberkahan rezeki.","Amanah menjaga data dan jujur pada biaya membangun kepercayaan pelanggan sehingga rezeki berkah.",[["amanah","data","privasi"],["jujur","biaya"],["berkah","percaya","kepercayaan","pelanggan","rezeki"]],3],
+["Mengapa mengganti nama bunga menjadi biaya administrasi tidak mengubah hukum?","Karena hukum dilihat dari hakikat akadnya; selama ada tambahan atas utang, tetap riba meski istilahnya berubah.",[["nama","istilah"],["tambahan","bunga","riba"],["hakikat","substansi","akad"]],2],
+["Jelaskan dua bentuk riba beserta contohnya.","Riba fadhl: kelebihan saat menukar barang sejenis. Riba nasi'ah: tambahan karena tempo waktu pada utang, misalnya bunga pinjol.",[["fadhl"],["nasiah"],["sejenis"],["waktu","tempo"]],3]]}};
+const $=id=>document.getElementById(id),L=['Mudah','Normal','Susah'];
+const info={Mudah:'Konsep dasar, dalil, dan istilah',Normal:'Perhitungan dan penerapan materi',Susah:'Analisis kasus dan perbandingan akad'};
+const icon={Mudah:'🌱',Normal:'🌊',Susah:'⛩️'};
+let lv='Mudah';
+const norm=s=>s.toLowerCase().replace(/['’`ʼ]/g,'');
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const nm=['Data','Tingkat','Soal','Nilai'];
+function go(n){[1,2,3,4].forEach(i=>$('v'+i).hidden=i!==n);
+$('steps').innerHTML=nm.map((s,i)=>`<li class="${i+1==n?'on':i+1<n?'dn':''}"><i>${i+1<n?'✓':i+1}</i>${s}</li>`).join('');window.scrollTo({top:0});}
+const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const NEW={e:[
+["Hikmah jual beli antara lain…",["Menimbulkan permusuhan","Memenuhi kebutuhan hidup","Menyulitkan orang lain","Menambah utang"],1,"Jual beli memenuhi kebutuhan hidup dan menghidupkan ekonomi."],
+["Hukum riba dalam Islam adalah…",["Halal","Sunnah","Makruh","Haram"],3,"Allah mengharamkan riba (QS. Al-Baqarah: 275)."],
+["Akad bagi hasil: satu pihak menyediakan modal, pihak lain menjalankan usaha, disebut…",["Ijarah","Mudharabah","Riba fadhl","Hibah"],1,"Itulah mudharabah."],
+["Jual beli boleh dilakukan selama…",["Menguntungkan satu pihak saja","Harga disembunyikan","Tidak mengandung unsur yang dilarang Islam","Tidak ada kesepakatan"],2,"Syaratnya halal, jelas, dan adil."],
+["Sikap teknisi TKJ terhadap data pelanggan adalah…",["Menyebarkannya","Menjaganya sebagai amanah","Menjualnya","Mengabaikannya"],1,"Data pelanggan adalah amanah yang wajib dijaga."],
+["Murabahah adalah…",["Sewa-menyewa","Utang berbunga","Jual beli dengan margin keuntungan yang disepakati","Hibah"],2,"Murabahah: jual beli dengan margin yang disepakati."],
+["Riba nasi'ah terjadi karena…",["Perbedaan merek barang","Tempo waktu pada utang-piutang","Kualitas barang","Jumlah saksi"],1,"Nasi'ah berarti tambahan karena penundaan waktu."]],
+n:[
+["Contoh riba nasi'ah adalah…",["Menukar emas sejenis berbeda berat","Utang Rp1 juta dikembalikan Rp1,2 juta karena tempo","Sewa laptop dengan harga tetap","Kongsi modal usaha"],1,"Tambahan karena tempo pada utang adalah riba nasi'ah."],
+["Allah mengharamkan riba karena…",["Angkanya besar","Dilakukan online","Merugikan pihak lain dan termasuk kezaliman","Tidak ada kwitansi"],2,"Riba menimbulkan ketidakadilan."],
+["Pinjaman Rp5.000.000 berbunga 1% per hari. Bunga sederhana 10 hari adalah…",["Rp50.000","Rp500.000","Rp1.500.000","Rp5.000.000"],1,"1% × 10 = 10%; 10% × Rp5 juta = Rp500.000."],
+["Perbedaan mudharabah dan musyarakah adalah…",["Sama saja","Musyarakah berarti sewa","Mudharabah: satu pihak modal, satu pihak usaha; musyarakah: modal bersama","Mudharabah memakai bunga"],2,"Musyarakah adalah kongsi modal dari semua pihak."],
+["Praktik pinjol yang menebar tekanan bertentangan dengan nilai…",["Kecepatan layanan","Desain aplikasi","Keadilan dan saling rida","Teknologi"],2,"Islam menuntut keadilan dan kerelaan dalam transaksi."],
+["Sikap jujur teknisi TKJ pada biaya jasa adalah…",["Melebihkan agar untung besar","Menyembunyikan rincian","Menaikkan harga sesuka hati","Mencatat biaya dan komponen secara jujur"],3,"Jujur dan transparan pada biaya."],
+["Contoh ijarah di bidang jaringan adalah…",["Pinjam uang berbunga","Menyewa perangkat dengan harga tetap yang disepakati","Menukar barang sejenis dengan tambahan","Menunda bayar tanpa akad"],1,"Ijarah: sewa perangkat/jasa dengan harga disepakati."],
+["Hadis riwayat Muslim tentang laknat riba menunjukkan…",["Hanya pemakan riba yang berdosa","Riba boleh bila ikhlas","Semua pihak yang terlibat riba turut berdosa","Hanya penulis yang berdosa"],2,"Pemakan, pemberi, penulis, dan saksi sama-sama dilaknat."],
+["Paylater menjadi riba apabila…",["Cicilan tanpa tambahan apa pun","Harga sama dengan harga tunai","Akad jelas tanpa tambahan","Ada bunga/biaya tambahan karena penundaan bayar"],3,"Tambahan atas utang akibat waktu adalah riba."]],
+h:[
+["Dua pihak sama-sama rela memakai bunga. Hukumnya…",["Halal karena sama-sama rela","Tetap riba, kerelaan tidak menghalalkan yang haram","Boleh jika kecil","Sunnah"],1,"Riba tetap haram walau disepakati."],
+["Unsur yang membuat pinjol Rp10 juta berbunga 1%/hari menjadi riba adalah…",["Besarnya nominal","Memakai ponsel","Cairnya cepat","Tambahan atas utang karena waktu tanpa usaha/risiko nyata pemberi"],3,"Itu ciri riba nasi'ah."],
+["Musyarakah lebih adil daripada pinjol berbunga karena…",["Untungnya pasti tetap","Tanpa akad","Untung dan rugi ditanggung bersama","Bunganya lebih kecil"],2,"Risiko dan hasil dibagi bersama."],
+["Menukar 100 gram emas dengan 105 gram emas secara tunai termasuk…",["Murabahah","Ijarah","Riba nasi'ah","Riba fadhl"],3,"Kelebihan pada barang sejenis adalah riba fadhl."],
+["Prinsip yang menyatukan solusi syariah di jasa IT/jaringan adalah…",["Harga paling murah","Akad jelas, transparan, dan sesuai syariat","Tanpa kontrak","Untung sepihak"],1,"Gunakan akad yang jelas dan transparan."],
+["Teknisi membocorkan data pelanggan demi uang. Menurut nilai PAI…",["Boleh jika bayarannya besar","Netral","Itu urusan pribadi","Khianat amanah dan merusak kepercayaan sehingga menjauhkan keberkahan"],3,"Amanah dan kejujuran menjaga keberkahan rezeki."]]};
+let cur=[];
+function pick(){const P={e:shuf([...D.Mudah.pg,...NEW.e]),n:shuf([...D.Normal.pg,...NEW.n]),h:shuf([...D.Susah.pg,...NEW.h])};
+const s=lv=='Mudah'?[...P.e,...P.n.slice(0,13)]:lv=='Normal'?[...P.n,...P.e.slice(0,5),...P.h.slice(0,6)]:[...P.h,...P.n.slice(0,14)];
+return shuf(s).map(q=>{const o=shuf(q[1].map((t,i)=>[t,i]));return{q:q[0],o,k:o.findIndex(p=>p[1]==q[2]),x:q[3]}});}
+function prog(){const a=document.querySelectorAll('#pg input:checked').length+[...document.querySelectorAll('#es textarea')].filter(t=>t.value.trim()).length;$('pc').textContent=a;$('pb').style.width=(a/30*100)+'%';}
+function renderQ(){cur=pick();const d=D[lv];$('t3').textContent=icon[lv]+' Tingkat '+lv;
+$('pg').innerHTML=cur.map((c,i)=>`<article class="q"><header><b class="no">${i+1}</b><h3>${esc(c.q)}</h3></header>${c.o.map((p,j)=>`<label class="opt"><input type="radio" name="p${i}" value="${j}"><i>${String.fromCharCode(65+j)}</i><span>${esc(p[0])}</span></label>`).join('')}</article>`).join('');
+$('es').innerHTML=d.es.map((q,i)=>`<article class="q"><header><b class="no">${i+26}</b><h3>${esc(q[0])}</h3></header><textarea id="e${i}" aria-label="Jawaban nomor ${i+26}"></textarea><p class="hint">Tulis jawaban singkat, jelas, dan gunakan kata kunci yang sesuai.</p></article>`).join('');prog();}
+function check(){const d=D[lv];let s=0,r='';
+cur.forEach((c,i)=>{const ch=document.querySelector(`input[name=p${i}]:checked`);const a=ch?+ch.value:-1;const ok=a===c.k;if(ok)s++;
+r+=`<article class="q"><header><b class="no ${ok?'ok':'bad'}">${i+1}</b><h3>${esc(c.q)}</h3></header><div class="fb ${ok?'':'bad'}"><b>${ok?'Benar':a<0?'Belum dijawab':'Kurang tepat'}</b>Jawabanmu: ${a<0?'-':String.fromCharCode(65+a)+'. '+esc(c.o[a][0])}<br>Jawaban benar: ${String.fromCharCode(65+c.k)}. ${esc(c.o[c.k][0])}<br>${esc(c.x)}</div></article>`;});
+d.es.forEach((q,i)=>{const v=$('e'+i).value.trim(),t=norm(v);const m=q[2].filter(g=>g.some(k=>t.includes(norm(k)))).length;const ok=m>=q[3];if(ok)s++;
+r+=`<article class="q"><header><b class="no ${ok?'ok':'bad'}">${i+26}</b><h3>${esc(q[0])}</h3></header><div class="fb ${ok?'':'bad'}"><b>${ok?'Tepat':v?'Belum lengkap, kata kunci kurang':'Belum dijawab'}</b>Jawabanmu: ${v?esc(v):'-'}<br>Contoh jawaban: ${esc(q[1])}</div></article>`;});
+const p=Math.round(s/30*100);$('rv').innerHTML=r;
+$('hn').textContent=`${$('nama').value.trim()} (${$('kelas').value.trim()||'-'}), tingkat ${lv}`;
+$('hs').textContent=`Skor Anda: ${s} dari 30`;$('rn').textContent=p;$('ring').style.setProperty('--p',p);
+$('hm').textContent=p>=90?'MasyaAllah, Anda sudah mampu menghubungkan nilai PAI dengan sikap profesional seorang teknisi TKJ.':p>=75?'Alhamdulillah, pemahaman Anda sudah baik. Pelajari lagi bagian yang masih keliru.':p>=55?'Cukup baik. Baca ulang materi riba dan akad, lalu coba lagi.':'Jangan menyerah. Pelajari materi dan ulangi kuis ini.';
+$('hk').textContent=s==30?'Semua jawaban tepat. Alhamdulillah!':'';go(4);}
+$('lvc').innerHTML=L.map(l=>`<button data-l="${l}"><span class="ic">${icon[l]}</span><div><b>${l}</b><span>${info[l]}. 25 PG + 5 uraian</span></div></button>`).join('');
+$('b1').onclick=()=>{if(!$('nama').value.trim()){$('err').textContent='Isi nama terlebih dahulu.';$('nama').focus();return;}$('err').textContent='';$('hl').textContent=$('nama').value.trim();go(2);};
+$('lvc').onclick=e=>{const b=e.target.closest('button');if(b){lv=b.dataset.l;renderQ();go(3);}};
+$('v3').addEventListener('input',prog);
+$('back2').onclick=()=>go(1);$('back3').onclick=()=>go(2);$('cek').onclick=check;
+$('again').onclick=()=>{renderQ();go(3);};$('other').onclick=()=>go(2);$('start').onclick=()=>go(1);
+go(1);
+</script></body></html>
